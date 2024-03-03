@@ -33,11 +33,11 @@
             let body;
 
             if (role === 'owners') {
-                body = encodeURIComponent('As a Minnesota business owner, taxpayer, and voter I am submitting this testimony in opposition of HF 2177.');
+                body = encodeURIComponent('As a Minnesota business owner, taxpayer, and a voter I am submitting this testimony in opposition of HF 2177.');
             } else if (role === 'employees') {
                 body = encodeURIComponent('As a Minnesota taxpayer, voter, and an employee in the industry this bill targets, I am submitting this testimony in Opposition to HF 2177.');
             } else if (role === 'consumers') {
-                body = encodeURIComponent('As a Minnesota voter, taxpayer, and concerned citizen, I am submitting this testimony in opposition to HF 2177.');
+                body = encodeURIComponent('As a Minnesota voter, taxpayer, and a concerned citizen, I am submitting this testimony in opposition to HF 2177.');
             }
 
             window.location.href = `mailto:${email}?bcc=${bcc}&subject=${subject}&body=${body}`;
